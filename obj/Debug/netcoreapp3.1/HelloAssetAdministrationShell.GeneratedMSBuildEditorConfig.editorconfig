@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = HelloAssetAdministrationShell
+build_property.ProjectDir = C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\
