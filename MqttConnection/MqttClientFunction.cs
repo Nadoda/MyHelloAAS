@@ -20,20 +20,24 @@ using System.Text;
 using System.Collections.Generic;
 using static System.Net.WebRequestMethods;
 using File = System.IO.File;
+using System.Net.Http;
 
 namespace HelloAssetAdministrationShell.MqttConnection
 {
     public class MqttClientFunction
     {
         private MqttClient client;
+        private HttpClient httpClient;
 
 
         public string Temperature { get; set; }
         public string Humidity { get; set; }
         public string Speed { get; set; }
         public string TimeStamp { get; set; }
+        public string MachineStatus { get; set; }
 
         private StringBuilder csv;
+        
 
         public MqttClientFunction()
         {
@@ -48,13 +52,13 @@ namespace HelloAssetAdministrationShell.MqttConnection
 
             // subscribe to the topic "/home/temperature" with QoS 2 
             client.Subscribe(new string[] { "MacnineData/ID-0000" }, new byte[] { MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE });
-
+           
 
         }
 
 
 
-        static void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
+        static async void client_MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
         {
             // handle message received 
             // Console.WriteLine("Received: " + System.Text.Encoding.UTF8.GetString(e.Message) + " on topic " + e.Topic);
@@ -67,22 +71,42 @@ namespace HelloAssetAdministrationShell.MqttConnection
             Console.WriteLine("Temperature: " + jsonObject["Temperature"]);
             Console.WriteLine("Speed: " + jsonObject["Speed"]);
             Console.WriteLine(jsonObject["Timestamp"]);
-
+            Console.WriteLine(jsonObject["MachineStatus"]);
 
             var Temperature = jsonObject["Temperature"].ToString();
+         // var temp = jsonObject["Temperature"].ToSting();
             var Humidity = jsonObject["Humidity"].ToString();
             var Speed = jsonObject["Speed"];
             var TimeStamp = jsonObject["Timestamp"];
+            var MachineStatus = jsonObject["MachineStatus"];
             Console.WriteLine("current Temperture is " + Temperature);
-            
+            Console.WriteLine("current Temperture is " + MachineStatus);
+
             var csv = new StringBuilder();
-            var newLine = string.Format("Temperature : {0}, Humidity : {1}, Speed : {2}, TimeStamp : {3}", Temperature, Humidity,Speed,TimeStamp);
+            var newLine = string.Format("Temperature : {0}, Humidity : {1}, Speed : {2}, TimeStamp : {3}, MachineStatus : {4}", Temperature, Humidity,Speed,TimeStamp,MachineStatus);
             csv.AppendLine(newLine);
             File.WriteAllText("data.csv", csv.ToString());
+            string mes = JsonConvert.SerializeObject(Temperature);
 
+            HttpClient client = new HttpClient();
+           
+            try
+            {
+                var res = await client.PutAsync("http://192.168.224.1:5180/aas/submodels/HelloSubmodel/submodel/submodelElements/Temperature/value", new StringContent(mes,
+                    Encoding.UTF8, "application/json"));
+                Console.WriteLine("Data send to submodel Element");
+                if(MachineStatus == "on") { Console.WriteLine(MachineStatus); }
+                else { Console.WriteLine(MachineStatus); }
+            }
+            catch
+            {
+                Console.WriteLine("Unable to connect");
+          
+            }
+         
         }
 
-
+     
         
 
         //after your loop

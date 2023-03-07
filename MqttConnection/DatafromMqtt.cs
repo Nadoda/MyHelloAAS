@@ -10,6 +10,7 @@ namespace HelloAssetAdministrationShell.MqttConnection
         public string Humidity { get; set; }
         public string Speed { get; set; }
         public string TimeStamp { get;set; }
+        public string MachineStatus { get; set; }   
 
         public void MqttMsgPublishReceived(object sender, MqttMsgPublishEventArgs e)
         {
@@ -30,6 +31,7 @@ namespace HelloAssetAdministrationShell.MqttConnection
              this.Humidity = jsonObject["Humidity"].ToString();
             this.Speed = jsonObject["Speed"];
              this.TimeStamp = jsonObject["TimeStamp"];
+            this.MachineStatus = jsonObject["MachineStatus"];
            
 
         }

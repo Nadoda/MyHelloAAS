@@ -1190,3 +1190,1295 @@
 
 2023-01-21 20:37:16.5719 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
 
+2023-01-23 12:15:06.8241 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 12:15:07.7872 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 12:15:07.8738 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 12:15:07.8738 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 12:15:07.8895 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 12:15:09.9994 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 12:15:10.6626 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 12:15:10.6626 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 12:15:10.6626 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 12:17:28.2141 - Error - BaSyx.Models.Extensions.SubmodelElementConverter - ModelType missing: {
+  "semanticId": {
+    "keys": [
+      {
+        "type": "Undefined",
+        "idType": "Undefined",
+        "value": "20",
+        "local": true
+      }
+    ]
+  },
+  "kind": "Instance",
+  "modelType": {}
+} 
+
+2023-01-23 12:17:28.2431 - Error - Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null. (Parameter 'name')
+   at BaSyx.Models.Core.Common.DataObjectType..ctor(String name)
+   at BaSyx.Models.Core.Common.ModelType..ctor(String name)
+   at lambda_method(Closure , Object[] )
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)    at BaSyx.Models.Core.Common.DataObjectType..ctor(String name)
+   at BaSyx.Models.Core.Common.ModelType..ctor(String name)
+   at lambda_method(Closure , Object[] )
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-01-23 12:42:20.5120 - Error - BaSyx.Models.Extensions.SubmodelElementConverter - ModelType missing: {
+  "semanticId": {
+    "keys": [
+      {
+        "type": "Undefined",
+        "idType": "Undefined",
+        "value": "20",
+        "local": true
+      }
+    ]
+  },
+  "kind": "Instance",
+  "modelType": {}
+} 
+
+2023-01-23 12:42:20.5273 - Error - Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request. System.ArgumentNullException: Value cannot be null. (Parameter 'name')
+   at BaSyx.Models.Core.Common.DataObjectType..ctor(String name)
+   at BaSyx.Models.Core.Common.ModelType..ctor(String name)
+   at lambda_method(Closure , Object[] )
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)    at BaSyx.Models.Core.Common.DataObjectType..ctor(String name)
+   at BaSyx.Models.Core.Common.ModelType..ctor(String name)
+   at lambda_method(Closure , Object[] )
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObjectUsingCreatorWithParameters(JsonReader reader, JsonObjectContract contract, JsonProperty containerProperty, ObjectConstructor`1 creator, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateNewObject(JsonReader reader, JsonObjectContract objectContract, JsonProperty containerMember, JsonProperty containerProperty, String id, Boolean& createdFromNonDefaultCreator)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-01-23 12:45:16.4668 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:45:16.4785 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:45:16.4884 - Error - Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request. System.InvalidCastException: Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+}
+ ---> System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   --- End of inner exception stack trace ---
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue..ctor(Object value, DataType valueType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.<.ctor>b__16_0(ISubmodelElement element)
+   at BaSyx.API.Components.SubmodelServiceProvider.RetrieveSubmodelElementValue(String submodelElementId)
+   at BaSyx.API.Http.Controllers.SubmodelController.GetSubmodelElementValueByIdShort(String seIdShortPath)
+   at BaSyx.API.Http.Controllers.AssetAdministrationShellController.Shell_GetSubmodelElementValueByIdShort(String submodelIdShort, String seIdShortPath)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)    at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue..ctor(Object value, DataType valueType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.<.ctor>b__16_0(ISubmodelElement element)
+   at BaSyx.API.Components.SubmodelServiceProvider.RetrieveSubmodelElementValue(String submodelElementId)
+   at BaSyx.API.Http.Controllers.SubmodelController.GetSubmodelElementValueByIdShort(String seIdShortPath)
+   at BaSyx.API.Http.Controllers.AssetAdministrationShellController.Shell_GetSubmodelElementValueByIdShort(String submodelIdShort, String seIdShortPath)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-01-23 12:48:10.7167 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:48:10.7266 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:48:10.7407 - Error - Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request. System.InvalidCastException: Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+}
+ ---> System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   --- End of inner exception stack trace ---
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue..ctor(Object value, DataType valueType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.<.ctor>b__16_0(ISubmodelElement element)
+   at BaSyx.API.Components.SubmodelServiceProvider.RetrieveSubmodelElementValue(String submodelElementId)
+   at BaSyx.API.Http.Controllers.SubmodelController.GetSubmodelElementValueByIdShort(String seIdShortPath)
+   at BaSyx.API.Http.Controllers.AssetAdministrationShellController.Shell_GetSubmodelElementValueByIdShort(String submodelIdShort, String seIdShortPath)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)    at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue..ctor(Object value, DataType valueType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.<.ctor>b__16_0(ISubmodelElement element)
+   at BaSyx.API.Components.SubmodelServiceProvider.RetrieveSubmodelElementValue(String submodelElementId)
+   at BaSyx.API.Http.Controllers.SubmodelController.GetSubmodelElementValueByIdShort(String seIdShortPath)
+   at BaSyx.API.Http.Controllers.AssetAdministrationShellController.Shell_GetSubmodelElementValueByIdShort(String submodelIdShort, String seIdShortPath)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-01-23 12:49:51.1407 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:49:51.1495 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:49:51.1644 - Error - Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request. Newtonsoft.Json.JsonSerializationException: Error getting value from 'Value' on 'BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property`1[System.String]'.
+ ---> System.InvalidCastException: Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+}
+ ---> System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   --- End of inner exception stack trace ---
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue..ctor(Object value, DataType valueType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.<.ctor>b__16_0(ISubmodelElement element)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.get_Value()
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)    at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-01-23 12:50:14.6376 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:50:14.6500 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:50:14.6602 - Error - Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request. Newtonsoft.Json.JsonSerializationException: Error getting value from 'Value' on 'BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property`1[System.String]'.
+ ---> System.InvalidCastException: Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+}
+ ---> System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   --- End of inner exception stack trace ---
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue..ctor(Object value, DataType valueType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.<.ctor>b__16_0(ISubmodelElement element)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.get_Value()
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)    at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-01-23 12:50:31.4049 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:50:31.4148 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+} System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-01-23 12:50:31.4148 - Error - Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request. Newtonsoft.Json.JsonSerializationException: Error getting value from 'Value' on 'BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property`1[System.String]'.
+ ---> System.InvalidCastException: Cannot convert from Newtonsoft.Json.Linq.JObject to String | value: {
+  "value": "20"
+}
+ ---> System.ArgumentException: Can not convert Object to String.
+   at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at Newtonsoft.Json.Linq.JToken.ToObject(Type objectType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   --- End of inner exception stack trace ---
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue..ctor(Object value, DataType valueType)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.<.ctor>b__16_0(ISubmodelElement element)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.Property.get_Value()
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)    at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-01-23 12:50:57.9680 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 12:50:58.8893 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 12:50:59.0498 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 12:50:59.0525 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 12:50:59.0734 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 12:51:00.0778 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 12:51:00.4088 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 12:51:00.4148 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 12:51:00.4148 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 13:14:03.7111 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 13:14:04.5257 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 13:14:04.6736 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 13:14:04.6764 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 13:14:04.7092 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 13:14:05.7233 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 13:14:06.1354 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 13:14:06.1354 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 13:14:06.1444 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 13:15:26.0443 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 13:15:26.7756 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 13:15:26.9447 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 13:15:26.9447 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 13:15:26.9693 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 13:15:27.9759 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 13:15:28.2951 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 13:15:28.3014 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 13:15:28.3014 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 13:30:29.2574 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 13:30:30.3004 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 13:30:30.4604 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 13:30:30.4604 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 13:30:30.4786 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 13:30:31.3626 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 13:30:31.7525 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 13:30:31.7627 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 13:30:31.7627 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 13:32:02.0397 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 13:32:02.7076 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 13:32:02.8388 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 13:32:02.8388 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 13:32:02.8587 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 13:32:03.6851 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 13:32:03.9732 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 13:32:03.9732 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 13:32:03.9732 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 13:34:24.1295 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 13:34:24.7588 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 13:34:24.8766 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 13:34:24.8766 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 13:34:24.8927 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 13:34:25.7964 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 13:34:26.1261 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 13:34:26.1339 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 13:34:26.1339 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 13:35:11.4360 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 13:35:12.1706 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 13:35:12.2693 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 13:35:12.2693 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 13:35:12.2868 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 13:35:13.2195 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 13:35:13.5191 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 13:35:13.5191 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 13:35:13.5357 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 14:11:35.8290 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 14:11:36.4905 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 14:13:20.9872 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 14:13:21.7572 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 14:13:21.8977 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 14:13:21.8977 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 14:13:21.9205 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 14:14:44.3145 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 14:14:45.0550 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 14:14:45.2044 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 14:14:45.2044 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 14:14:45.2279 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 14:14:46.0916 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 14:14:46.4492 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 14:14:46.4591 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 14:14:46.4591 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 14:22:15.6753 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 14:22:16.3621 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 14:22:16.4658 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 14:22:16.4658 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 14:22:16.4811 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 14:22:17.1840 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 14:22:17.4795 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 14:22:17.4795 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 14:22:17.4795 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 14:23:04.4894 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread stopping... 
+
+2023-01-23 14:23:04.5275 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread stopped successfully:True 
+
+2023-01-23 14:24:57.1125 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 14:24:57.7855 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 14:24:57.9108 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 14:24:57.9108 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 14:24:57.9300 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 14:24:58.6621 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 14:24:58.9601 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 14:24:58.9601 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 14:24:58.9601 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 14:26:59.7620 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 14:27:00.5011 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 14:27:00.6294 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 14:27:00.6294 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 14:27:00.6529 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 14:27:01.4921 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 14:27:02.1502 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 14:27:02.1502 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 14:27:02.1502 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 14:27:35.9568 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 14:27:36.5245 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 14:27:36.6667 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 14:27:36.6667 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 14:27:36.6929 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 14:27:37.5852 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 14:27:37.8702 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 14:27:37.8781 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 14:27:37.8781 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 14:33:43.8226 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 14:33:45.5164 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 14:33:45.6757 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 14:33:45.6757 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 14:33:45.6965 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 14:33:47.1949 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 14:33:48.2478 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 14:33:48.2568 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 14:33:48.2568 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-23 15:10:55.0383 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-23 15:10:56.5310 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-23 15:10:56.8061 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-23 15:10:56.8061 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.246:5180 as endpoint 
+
+2023-01-23 15:10:56.8432 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-23 15:10:58.2393 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-23 15:10:58.7505 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.246 
+
+2023-01-23 15:10:58.7717 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-23 15:10:58.7717 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-25 13:12:16.8337 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-25 13:12:17.7971 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-25 13:12:17.9982 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-25 13:12:17.9982 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.235:5180 as endpoint 
+
+2023-01-25 13:12:18.0199 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-25 13:12:19.3610 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-25 13:12:20.1044 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.235 
+
+2023-01-25 13:12:20.1190 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-25 13:12:20.1190 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-25 13:31:47.7021 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-25 13:31:48.4425 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-25 13:31:48.5794 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-25 13:31:48.5794 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.235:5180 as endpoint 
+
+2023-01-25 13:31:48.5995 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-25 13:31:49.5899 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-25 13:31:49.9300 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.235 
+
+2023-01-25 13:31:49.9374 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-25 13:31:49.9374 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-26 08:14:48.4176 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-26 08:14:49.7906 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-26 08:14:49.9390 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-26 08:14:49.9390 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.219:5180 as endpoint 
+
+2023-01-26 08:14:49.9635 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-26 08:14:51.6234 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-26 08:14:52.6126 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.219 
+
+2023-01-26 08:14:52.6221 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-26 08:14:52.6221 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-01-26 10:10:04.4821 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-01-26 10:10:05.5178 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-01-26 10:10:05.7063 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.23.208.1:5180 as endpoint 
+
+2023-01-26 10:10:05.7063 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.219:5180 as endpoint 
+
+2023-01-26 10:10:05.7471 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-01-26 10:10:07.5437 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-01-26 10:10:08.1140 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.23.208.1;141.44.206.219 
+
+2023-01-26 10:10:08.1540 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-01-26 10:10:08.1540 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-06 16:21:00.0911 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-06 16:21:03.2253 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-06 16:21:03.5850 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://172.21.192.1:5180 as endpoint 
+
+2023-03-06 16:21:03.5892 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-06 16:21:03.6719 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-06 16:21:08.5150 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-06 16:21:10.3950 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=172.21.192.1;141.44.206.216 
+
+2023-03-06 16:21:10.4178 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-06 16:21:10.4178 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 13:34:23.9220 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 13:34:25.3526 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 13:34:25.4938 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 13:34:25.4938 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 13:34:25.5424 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 13:34:26.7452 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 13:34:27.3486 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 13:34:27.3486 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 13:34:27.3625 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 13:46:52.9661 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 13:46:53.7062 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 13:46:53.8207 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 13:46:53.8207 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 13:46:53.8436 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 13:46:54.6782 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 13:46:55.0387 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 13:46:55.0387 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 13:46:55.0520 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 13:51:13.6077 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 13:51:14.3802 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 13:51:14.4639 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 13:51:14.4639 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 13:51:14.4823 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 13:51:15.2624 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 13:51:15.6159 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 13:51:15.6159 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 13:51:15.6301 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 13:55:53.3699 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 13:55:54.2873 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 13:55:54.3780 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 13:55:54.3806 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 13:55:54.3993 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 13:55:55.2010 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 13:55:55.7233 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 13:55:55.7398 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 13:55:55.7398 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 13:59:32.6726 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 13:59:33.4122 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 13:59:33.5362 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 13:59:33.5362 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 13:59:33.5515 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 13:59:34.2581 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 13:59:34.5649 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 13:59:34.5741 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 13:59:34.5741 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 14:04:42.7131 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 14:04:43.5951 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 14:04:43.6895 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 14:04:43.6917 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 14:04:43.6917 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 14:04:44.4399 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 14:04:44.7488 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 14:04:44.7595 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 14:04:44.7595 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 14:20:21.3389 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 14:20:22.2278 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 14:24:07.9432 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 14:24:08.8578 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 14:30:41.5631 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 14:30:42.4933 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 14:30:42.5765 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 14:30:42.5765 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 14:30:42.5894 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 14:30:43.3069 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 14:30:43.6089 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=HelloAAS	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 14:30:43.6181 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 14:30:43.6181 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 15:24:07.1294 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 15:24:08.0157 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 15:24:08.1000 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 15:24:08.1000 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 15:24:08.1172 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 15:24:08.8073 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 15:24:09.1163 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=CNCMACHINEAAS_01	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 15:24:09.1163 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 15:24:09.1163 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 15:24:44.3091 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 15:24:45.0519 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 15:24:45.1701 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 15:24:45.1701 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 15:24:45.1865 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 15:24:45.9968 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 15:24:46.3105 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=CNCMACHINEAAS_01	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 15:24:46.3187 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 15:24:46.3187 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 15:32:26.7684 - Warn - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot change type from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-03-07 15:32:26.8291 - Error - BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue - Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+
+2023-03-07 15:32:26.8556 - Error - Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware - An unhandled exception has occurred while executing the request. System.InvalidCastException: Cannot convert from BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement] to Object | value: BaSyx.Models.Core.Common.ElementContainer`1[BaSyx.Models.Core.AssetAdministrationShell.Generics.ISubmodelElement]
+ ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: B. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.Linq.JToken.ReadFrom(JsonReader reader, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json, JsonLoadSettings settings)
+   at Newtonsoft.Json.Linq.JToken.Parse(String json)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   --- End of inner exception stack trace ---
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.SubmodelElementCollection.<.ctor>b__37_0(ISubmodelElement element)
+   at BaSyx.API.Components.SubmodelServiceProvider.RetrieveSubmodelElementValue(String submodelElementId)
+   at BaSyx.API.Http.Controllers.SubmodelController.GetSubmodelElementValueByIdShort(String seIdShortPath)
+   at BaSyx.API.Http.Controllers.AssetAdministrationShellController.Shell_GetSubmodelElementValueByIdShort(String submodelIdShort, String seIdShortPath)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)    at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.ToObject(Object value, Type type)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.ElementValue.set_Value(Object value)
+   at BaSyx.Models.Core.AssetAdministrationShell.Implementations.SubmodelElementCollection.<.ctor>b__37_0(ISubmodelElement element)
+   at BaSyx.API.Components.SubmodelServiceProvider.RetrieveSubmodelElementValue(String submodelElementId)
+   at BaSyx.API.Http.Controllers.SubmodelController.GetSubmodelElementValueByIdShort(String seIdShortPath)
+   at BaSyx.API.Http.Controllers.AssetAdministrationShellController.Shell_GetSubmodelElementValueByIdShort(String submodelIdShort, String seIdShortPath)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+2023-03-07 16:41:14.0870 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 16:41:14.8741 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 16:41:14.9683 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 16:41:14.9683 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 16:41:14.9856 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 16:41:16.0158 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 16:41:16.5966 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=CNCMACHINEAAS_01	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 16:41:16.5966 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 16:41:16.5966 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 16:45:13.6796 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 16:45:14.4470 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 16:45:14.6104 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 16:45:14.6125 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 16:45:14.6291 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 16:45:15.3835 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 16:45:15.6923 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=CNCMACHINEAAS_01	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 16:45:15.7076 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 16:45:15.7076 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 16:47:08.2261 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 16:47:09.0397 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 16:47:09.2073 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 16:47:09.2073 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 16:47:09.2301 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 16:47:10.0227 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 16:47:10.3551 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=CNCMACHINEAAS_01	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 16:47:10.3634 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 16:47:10.3634 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 16:48:20.7872 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 16:48:21.6653 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 16:48:21.8133 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 16:48:21.8133 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 16:48:21.8296 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 16:48:22.5406 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 16:48:22.8439 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=CNCMACHINEAAS_01	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 16:48:22.8525 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 16:48:22.8525 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
+2023-03-07 16:50:04.9612 - Info - HelloAssetAdministrationShell.Program - Starting HelloAssetAdministrationShell's HTTP server... 
+
+2023-03-07 16:50:05.8674 - Info - BaSyx.Components.Common.ServerApplication - wwwroot-Path: C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\wwwroot 
+
+2023-03-07 16:50:06.0020 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://192.168.224.1:5180 as endpoint 
+
+2023-03-07 16:50:06.0042 - Info - BaSyx.API.Components.DefaultEndpointRegistration - Using http://141.44.206.216:5180 as endpoint 
+
+2023-03-07 16:50:06.0191 - Info - BaSyx.Components.Common.ServerApplication - Starting Server... 
+
+2023-03-07 16:50:06.7236 - Info - BaSyx.Components.Common.ServerApplication - Pages-RootDirectory: /Pages 
+
+2023-03-07 16:50:07.0253 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Creating service profile with	ServiceName=CNCMACHINEAAS_01	ServiceType=_aas_service._tcp	Port=5180	IPAddresses=192.168.224.1;141.44.206.216 
+
+2023-03-07 16:50:07.0253 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread starting... 
+
+2023-03-07 16:50:07.0355 - Info - BaSyx.Discovery.mDNS.DiscoveryClient - Advertise thread started successfully 
+
