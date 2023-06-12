@@ -72,3 +72,249 @@ C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\n
 C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.pdb
 C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.genruntimeconfig.cache
 C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\CsvHelper.dll
+C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\HelloAssetAdministrationShell.StaticWebAssets.Pack.cache
+C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.HelloAssetAdministrationShell.Microsoft.AspNetCore.StaticWebAssets.props
+C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.HelloAssetAdministrationShell.props
+C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.HelloAssetAdministrationShell.props
+C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.HelloAssetAdministrationShell.props
+C:\BasyxMqttAAAS\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.Views.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Nlog.config
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\ServerSettings.xml
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Content\HelloAssetAdministrationShell.pdf
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.exe
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.deps.json
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.runtimeconfig.json
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.runtimeconfig.dev.json
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.pdb
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.Views.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.AAS.Client.Http.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.AAS.Server.Http.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.API.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.API.Http.Controllers.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.Views.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.Swagger.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Components.Common.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Components.Common.Abstractions.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Discovery.mDNS.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Models.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.DependencyInjection.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.DependencyInjection.Abstractions.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Common.Logging.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\CsvHelper.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\System.Net.IPNetwork.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\M2Mqtt.Net.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Makaretu.Dns.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Makaretu.Dns.Multicast.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Composite.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\SimpleBase.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Newtonsoft.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\XSerializer.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-arm\lib\netstandard2.0\Tmds.LibC.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\lib\netstandard2.0\Tmds.LibC.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-x64\lib\netstandard2.0\Tmds.LibC.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.AssemblyReference.cache
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.GeneratedMSBuildEditorConfig.editorconfig
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.AssemblyInfoInputs.cache
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.AssemblyInfo.cs
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.CoreCompileInputs.cache
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.MvcApplicationPartsAssemblyInfo.cs
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.MvcApplicationPartsAssemblyInfo.cache
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\HelloAssetAdministrationShell.StaticWebAssets.Manifest.cache
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\HelloAssetAdministrationShell.StaticWebAssets.Pack.cache
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.HelloAssetAdministrationShell.Microsoft.AspNetCore.StaticWebAssets.props
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.HelloAssetAdministrationShell.props
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.HelloAssetAdministrationShell.props
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.HelloAssetAdministrationShell.props
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.RazorTargetAssemblyInfo.cache
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.CopyComplete
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.dll
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.pdb
+D:\AASDashBoard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.genruntimeconfig.cache
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Nlog.config
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\ServerSettings.xml
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Content\HelloAssetAdministrationShell.pdf
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.exe
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.deps.json
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.runtimeconfig.json
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.runtimeconfig.dev.json
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.pdb
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.Views.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.AAS.Client.Http.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.AAS.Server.Http.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.API.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.API.Http.Controllers.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.Views.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.Swagger.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Components.Common.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Components.Common.Abstractions.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Discovery.mDNS.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Models.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.DependencyInjection.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.DependencyInjection.Abstractions.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\CsvHelper.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\System.Net.IPNetwork.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\M2Mqtt.Net.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Makaretu.Dns.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Makaretu.Dns.Multicast.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\SimpleBase.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Newtonsoft.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\XSerializer.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-arm\lib\netstandard2.0\Tmds.LibC.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\lib\netstandard2.0\Tmds.LibC.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-x64\lib\netstandard2.0\Tmds.LibC.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.AssemblyReference.cache
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.AssemblyInfoInputs.cache
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.AssemblyInfo.cs
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.CoreCompileInputs.cache
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\HelloAssetAdministrationShell.StaticWebAssets.Manifest.cache
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\HelloAssetAdministrationShell.StaticWebAssets.Pack.cache
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.HelloAssetAdministrationShell.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.HelloAssetAdministrationShell.props
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.HelloAssetAdministrationShell.props
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.HelloAssetAdministrationShell.props
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.RazorTargetAssemblyInfo.cache
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.CopyComplete
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.dll
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.pdb
+C:\Users\Jay Vegad\OneDrive\Desktop\Ajay\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.genruntimeconfig.cache
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Nlog.config
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\ServerSettings.xml
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Content\HelloAssetAdministrationShell.pdf
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.exe
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.deps.json
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.runtimeconfig.json
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.runtimeconfig.dev.json
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.pdb
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\HelloAssetAdministrationShell.Views.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.AAS.Client.Http.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.AAS.Server.Http.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.API.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.API.Http.Controllers.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.Views.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Common.UI.Swagger.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Components.Common.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Components.Common.Abstractions.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Discovery.mDNS.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Models.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.DependencyInjection.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\BaSyx.Utils.DependencyInjection.Abstractions.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Common.Logging.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\CsvHelper.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\System.Net.IPNetwork.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\M2Mqtt.Net.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Makaretu.Dns.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Makaretu.Dns.Multicast.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Composite.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\SimpleBase.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Newtonsoft.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\XSerializer.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-arm\lib\netstandard2.0\Tmds.LibC.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\lib\netstandard2.0\Tmds.LibC.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\bin\Debug\netcoreapp3.1\runtimes\linux-x64\lib\netstandard2.0\Tmds.LibC.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.AssemblyReference.cache
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.GeneratedMSBuildEditorConfig.editorconfig
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.AssemblyInfoInputs.cache
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.AssemblyInfo.cs
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.CoreCompileInputs.cache
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.MvcApplicationPartsAssemblyInfo.cs
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.MvcApplicationPartsAssemblyInfo.cache
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\HelloAssetAdministrationShell.StaticWebAssets.Manifest.cache
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\HelloAssetAdministrationShell.StaticWebAssets.Pack.cache
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.HelloAssetAdministrationShell.Microsoft.AspNetCore.StaticWebAssets.props
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.HelloAssetAdministrationShell.props
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.HelloAssetAdministrationShell.props
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.HelloAssetAdministrationShell.props
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.RazorTargetAssemblyInfo.cache
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.csproj.CopyComplete
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.dll
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.pdb
+D:\EEIT_Master\Project\Integrated\CNCMachineAASDashboard\basyx-dotnet-examples\HelloAssetAdministrationShell\obj\Debug\netcoreapp3.1\HelloAssetAdministrationShell.genruntimeconfig.cache
